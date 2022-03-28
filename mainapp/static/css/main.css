@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  background-image: -webkit-gradient(linear, right top, left top, from(#cfcfcf), to(#8ffff0));
+  background-image: linear-gradient(to left, #cfcfcf, #8ffff0);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-image: repeating-linear-gradient(to right, #1b1b1b, #6e6e6e);
+  padding: 1em;
+  margin: 0;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.5em;
+}
+
+.navbar .logo span {
+  color: #999999;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobilemenu {
+  cursor: pointer;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: #999999;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+.mobilemenuexit {
+  float: left;
+  margin: .5em;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.section1 .container1 {
+  opacity: 80%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: .25em;
+}
+
+.section1 .container1 div {
+  padding: 1em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.section1 .container1 .box1survey {
+  max-width: 100%;
+  font-size: 2.5em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.section1 .container1 .box1survey .titletwo {
+  font-size: .55em;
+}
+
+.section1 .container1 .box1 {
+  font-size: 2.5em;
+  max-width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.section1 .container1 .box1 .titletwo {
+  font-size: .55em;
+}
+
+.section1 .container1 .box2 {
+  margin-bottom: 2em;
+  border-radius: 2em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 70%;
+  background-color: #bebebe;
+}
+
+.section1 .container1 .box3 {
+  margin-bottom: 2em;
+  border-radius: 2em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 80%;
+  background-color: #a3a3a3;
+}
+
+.section1 .container1 .box4 {
+  margin-bottom: 2em;
+  border-radius: 2em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 70%;
+  background-color: #8a8a8a;
+  color: white;
+}
+
+.section1 .container1 .box5 {
+  margin-bottom: 4em;
+  border-radius: 2em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 50%;
+  background-color: #5f5f5f;
+  color: white;
+}
+
+.section1 .container1 .box6 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 4em;
+}
+
+.section1 .container1 .box6 a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 3em;
+}
+
+.section1 .container1 .box6 a:hover {
+  font-weight: bold;
+}
+
+.section1 .sc_container2 {
+  color: white;
+  background-color: black;
+  border-radius: 2em;
+  -ms-flex-item-align: center;
+      align-self: center;
+  opacity: 70%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  padding: .25em;
+}
+
+.section1 .sc_container2 div {
+  padding: 1em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.section1 .sc_container2 .box1 {
+  font-size: 1.5em;
+  max-width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.section1 .sv_container2 {
+  color: white;
+  background-color: black;
+  border-radius: 2em;
+  -ms-flex-item-align: center;
+      align-self: center;
+  opacity: 70%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  padding: .25em;
+}
+
+.section1 .sv_container2 div {
+  padding: 1em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.section1 .sv_container2 .box1 {
+  font-size: 1.5em;
+  max-width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=main.css.map */
