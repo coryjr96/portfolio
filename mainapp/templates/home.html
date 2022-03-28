@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -15,7 +15,7 @@
                 <nav>
                     <img id="mobileexit" class="mobilemenuexit" src="{% static 'images/exit.svg' %}" alt="Close Navigation">
                     <ul>
-                        <li class="navbarlist"><a href="home.html">Home</a></li>
+                        <li class="navbarlist"><a href="{% url 'home' %}">Home</a></li>
                         <li class="navbarlist"><a href="about.html">About Me</a></li>
                         <li class="navbarlist"><a href="showcase.html">Showcase</a></li>
                         <li class="navbarlist"><a href="survey.html">Survey</a></li>
@@ -48,6 +48,6 @@
 {% endif %}
 
 
-{% load staticfiles %}
+{% load static %}
 href="{% static 'css/main.css' %}"
 -->
