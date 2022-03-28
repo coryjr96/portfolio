@@ -270,4 +270,40 @@ ul {
       -ms-grid-row-align: center;
       align-self: center;
 }
+
+.section1 .ct_container2 {
+  color: white;
+  background-color: black;
+  border-radius: 2em;
+  -ms-flex-item-align: center;
+      align-self: center;
+  opacity: 70%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  padding: .25em;
+}
+
+.section1 .ct_container2 div {
+  padding: 1em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.section1 .ct_container2 .box1 {
+  font-size: 1.5em;
+  max-width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
 /*# sourceMappingURL=main.css.map */

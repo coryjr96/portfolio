@@ -194,4 +194,25 @@ ul {
             align-self: center;
         }
     }
+    .ct_container2 {
+        color: white;
+        background-color: black;
+        border-radius: 2em;
+        align-self: center;
+        opacity: 70%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding: .25em;
+        div {
+            padding: 1em;
+            flex: 1;
+        }
+        .box1 {
+            font-size: 1.5em;
+            max-width: 60%;
+            align-self: center;
+        }
+    }
 }

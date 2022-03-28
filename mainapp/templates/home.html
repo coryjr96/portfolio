@@ -10,16 +10,17 @@
     <body>
         <div class="navbar">
             <div class="container">
-                <a class="logo" href="home.html"><span>Cory's</span> Portfolio</a>
+                <a class="logo" href="/mainapp/home"><span>Cory's</span> Portfolio</a>
                 <img id="mobilecta" class="mobilemenu" src="{% static 'images/menu.svg' %}" alt="Open Navigation">
                 <nav>
                     <img id="mobileexit" class="mobilemenuexit" src="{% static 'images/exit.svg' %}" alt="Close Navigation">
                     <ul>
-                        <li class="navbarlist"><a href="{% url 'home' %}">Home</a></li>
-                        <li class="navbarlist"><a href="about.html">About Me</a></li>
-                        <li class="navbarlist"><a href="showcase.html">Showcase</a></li>
-                        <li class="navbarlist"><a href="survey.html">Survey</a></li>
-                        <li class="navbarlist"><a href="proinfo.html">Professional Info</a></li>
+                        <li class="navbarlist"><a href="/mainapp/home">Home</a></li>
+                        <li class="navbarlist"><a href="/mainapp/about">About Me</a></li>
+                        <li class="navbarlist"><a href="/mainapp/showcase">Showcase</a></li>
+                        <li class="navbarlist"><a href="/mainapp/survey">Survey</a></li>
+                        <li class="navbarlist"><a href="/mainapp/proinfo">Professional Info</a></li>
+                        <li class="navbarlist"><a href="/mainapp/contact">Contact Me</a></li>
                     </ul>
                 </nav>
             </div>
@@ -31,7 +32,7 @@
                 <div class="box3"><p>I have no formal education and minimal workplace experience but hopefully my site here can convince you that I can do a developer's job regardless. About two years ago, I started coding as a hobby, but my hope was always that it would lead to a career. I've been slowly building the skillset to build and present this website/webapp to you today.</p></div>
                 <div class="box4"><p>On this page, you may find a lack of styling and fancy front-end development. However, that is not what I hope you'll remember me for; my true passion is back-end development and functionality. You'll find just that here. Below, I present a collection of various systems that I hope you'll find impressive.</p></div>
                 <div class="box5"><p>Anyways...check out the menu for some additional pages and go ahead and click below for my showcase:)</p></div>
-                <div class="box6"><a href="showcase.html">Showcase</a></div>
+                <div class="box6"><a href="/mainapp/showcase">Showcase</a></div>
             </div>
         </section>
         <script src="{% static 'main.js' %}"></script>
