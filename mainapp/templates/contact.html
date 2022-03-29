@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="container">
+                <a class="logo" href="/mainapp/home"><span>Cory's</span> Portfolio</a>
+                <img id="mobilecta" class="mobilemenu" src="{% static 'images/menu.svg' %}" alt="Open Navigation">
+                <nav>
+                    <img id="mobileexit" class="mobilemenuexit" src="{% static 'images/exit.svg' %}" alt="Close Navigation">
+                    <ul>
+                        <li class="navbarlist"><a href="/mainapp/home">Home</a></li>
+                        <li class="navbarlist"><a href="/mainapp/about">About Me</a></li>
+                        <li class="navbarlist"><a href="/mainapp/showcase">Showcase</a></li>
+                        <li class="navbarlist"><a href="/mainapp/survey">Survey</a></li>
+                        <li class="navbarlist"><a href="/mainapp/proinfo">Professional Info</a></li>
+                        <li class="navbarlist"><a href="/mainapp/contact">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section class="section1">
+            <div class="container1">
+                <div class="box1"><p>Wow? Really? Of course! Go ahead and contact me:)</p></div>
+            </div>
+            <div class="ct_container2">
+                <div class="box1">
+                    <form method="post">
+                        <!--{% csrf_token %}-->
+                        {{ form }}
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="{% static 'main.js' %}"></script>
+    </body>
+</html>
+
+<!--
+    All below is for reference.
+
+    {% if name %}
+<h1>Hi! I'm {{ name }}</h1>
+{% else %}
+<h1>Hello ERROR ERROR</h1>
+{% endif %}
+
+
+{% load static %}
+href="{% static 'css/main.css' %}"
+-->
