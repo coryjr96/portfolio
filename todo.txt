@@ -1,1 +1,11 @@
 Configure CSRF
+
+Look over API's:
+Google Maps API's
+Google Geolocation
+World Population.io
+
+Ideas:
+Personal location data for metrics
+HFC app
+
